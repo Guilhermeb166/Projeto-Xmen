@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img src="img/logo-xmen.png" alt=""></header>
+    <section>
+        <div id="personagens">
+            <h1>Selecione um Personagem</h1>
+            <ul class="imagens">
+                <!--Cards dos personagens-->
+                <li><img class="heroi" src="img/card-ciclope.jpg" alt="" onmouseover="ciclope_info()"></li>
+                <li ><img class="heroi" src="img/card-jean-grey.jpg" alt="" onmouseover="jean_info()"></li>
+                <li ><img class="heroi" src="img/card-lince-negra.jpg" alt="" onmouseover="lince_info()"></li>
+                <li ><img class="heroi" src="img/card-tempestade.jpg" alt="" onmouseover="tempestade_info()"></li>
+                <li ><img class="heroi" src="img/card-vampira.jpg" alt="" onmouseover="vampira_info()"></li>
+                <li ><img class="heroi" src="img/card-wolverine.jpg" alt="" onmouseover="wolverine_info()"></li>
+                <li ><img class="heroi" src="img/card-noturno.jpg" alt="" onmouseover="noturno_info()"></li>
+                <li ><img class="heroi" src="img/card-magneto.jpg" alt="" onmouseover="magneto_info()"></li>
+                
+            </ul>
+        </div>
+        <!--Informações dos personagens-->
+        <div id="personagem-info">
+          <img class="imagemDoPersonagem" src="img/ciclope.png" alt="">
+            <h2 class="nomeDoPersonagem">Ciclope</h2>
+            <p class="descricao">Ele tem o poder de disparar rajadas opticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+        </div>
+    </section>
+    
+    <script src="js/personagens.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
